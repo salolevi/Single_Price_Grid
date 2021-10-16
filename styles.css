@@ -1,0 +1,106 @@
+:root {
+  --cyan: hsl(179, 62%, 43%);
+  --bright-yellow: hsl(71, 73%, 54%);
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--light-gray);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 30px;
+}
+
+.community-banners {
+  background-color: #fff;
+}
+
+.community-banners h1 {
+  color: var(--cyan);
+  font-weight: 700;
+  margin: 20px;
+  font-size: 1.3em;
+}
+
+.community-banners h2 {
+  color: var(--bright-yellow);
+  font-size: 1em;
+  margin: 10px 20px;
+}
+
+.community-banners p {
+  color: var(--grayish-blue);
+  font-size: .9em;
+  margin: 20px 20px 25px 20px;
+  padding-bottom: 0;
+  line-height: 1.5;
+}
+
+.pricing {
+  background-color: var(--cyan);
+}
+
+.pricing__info {
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.pricing h1 {
+  font-size: 1.2em;
+  color: #fff;
+  margin: 20px;
+}
+
+.pricing__info h2 {
+  font-size: 2em;
+  margin: 0 10px 0 0;
+  color: #fff;
+}
+
+.pricing__plan {
+  color: var(--light-gray);
+  font-weight: 400;
+  opacity: .7;
+}
+
+.pricing p {
+  margin: 10px 20px;
+  color: #fff;
+  opacity: .8;
+}
+
+.pricing__btn-container {
+  margin: 0 20px 15px 20px;
+  background-color: var(--bright-yellow);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.pricing-btn {
+  width: 100%;
+  padding: 15px 0;
+  background-color: inherit;
+  border: none;
+  font-weight: 700;
+  font-family: 'Karla', sans-serif;
+  color: #fff;
+  font-size: 1em;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
